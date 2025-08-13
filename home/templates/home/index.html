@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicce-width, initial-scale=1.0">
+    <title>Restaurant Management</title>
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"> My Restaurant</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Delicious meals delivered to your door</p>
+        <a href="#" class="btn">Order Now</a>
+    </header>
+
+    <!--Features -->
+    <section class="features">
+        <div class="card">
+            <h2>Fresh Ingrdients</h2>
+            <p>We use only the freshest and highest quality ingredients for every dish.</p>
+        </div>
+        <div class="card">
+            <h2>Best Chefs</h2>
+            <p>Our experienced chefs bring flavours from around the world to your plate.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> 2025 My Restaurant | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
