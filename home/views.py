@@ -6,4 +6,4 @@ def homepage(request):
     context={
         "restaurant_name": settings.RESTAURANT_NAME
     }
-    return render(request, 'home/index.html', contact)
+    return render(request, 'home/index.html', context)
